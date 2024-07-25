@@ -1,0 +1,74 @@
+.header{
+    height: 80px;
+    width: 100%;
+}
+
+/* **** Secção principal **** */
+.main--content {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+}
+
+.header--wrapper img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header--title p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search--box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search--box input {
+    background: #242e36;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: #fff;
+}
+
+.search--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 05.s ease-out;
+}
+
+.search--box i:hover{
+    transform: scale(1.2);
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #242e36;;
+    color: #fff;
+}
+
